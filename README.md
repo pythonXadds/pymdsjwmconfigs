@@ -9,7 +9,7 @@ I've added:
 * **Keybindings** added. 
 * **xdgmenmaker** added. *one can now add menu items, and they will automatically be added to the menu and 
 will have an Icon added*
-* *follow this link to install xdgmenmaker the easy way: <https://notabug.org/adnan360/jwm-config> 
+* *follow* this link to install xdgmenmaker the easy way: <https://notabug.org/adnan360/jwm-config> 
 
 
 **to-do**
