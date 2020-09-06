@@ -6,6 +6,7 @@
 I've added: 
 
 * **dmenu** *one can now use the key bindings, Alt+D which will spawn the menu*
+* **Rofi** *I added rofi, use the key bindings alt+r, this will spawm rofi*
 * **Keybindings** added. 
 * **xdgmenmaker** added. *one can now add menu items, and they will automatically be added to the menu and 
 will have an Icon added*
