@@ -81,7 +81,7 @@
         <Foreground>#FFFFFF</Foreground>
         <Background>#303030</Background>
         <Outline>#000000</Outline>
-        <Opacity>0.5</Opacity>
+        <Opacity>1.5</Opacity>
         <Active>
             <Foreground>#FFFFFF</Foreground>
             <Background>#303030</Background>
@@ -94,7 +94,7 @@
         <Background>#303030</Background>
         <Foreground>#FFFFFF</Foreground>
         <Outline>#303030</Outline>
-        <Opacity>0.75</Opacity>
+        <Opacity>1.75</Opacity>
     </TrayStyle>
     <TaskListStyle>
       <Font>consolas-9</Font>
@@ -124,7 +124,7 @@
             <Foreground>#00FFFF</Foreground>
             <Background>#303030</Background>
         </Active>
-        <Opacity>0.85</Opacity>
+        <Opacity>1.85</Opacity>
     </MenuStyle>
     <PopupStyle>
         <Font>consolas-9</Font>
