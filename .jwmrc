@@ -17,11 +17,11 @@
  
    <!-- The root menu. -->
     <RootMenu height="25" onroot="123"> 
-        <Program icon="terminal.png" label="xterm">xterm</Program>
+        <Program icon="terminal.png" label="terminal">gnome-terminal</Program>
         <Program icon="/usr/share/jwm/beaver.png" label="beaver">beaver</Program>
-        <Program icon="/usr/share/jwm/notepad..png" label="notepadqq">notepadqq</Program>
+        <Program icon="/usr/share/jwm/notepad..png" label="Geany">geany</Program>
         <Program icon="/usr/share/jwm/rox.png" label="rox">rox</Program>
-        <Program icon="/usr/share/jwm/markdown.png" label="retext">retext</Program>
+        <Program icon="/usr/share/jwm/markdown.png" label="vim">gvim</Program>
         <Menu icon="apps.png" label="Applications">
             <Program icon="calc.png" label="Calculator">xcalc</Program>
             <Program icon="xterm" label="xterm">xterm</Program>
@@ -78,7 +78,7 @@
     <Tray x="0" y="-1" height="25" valign="bottom" autohide="no"> 
 
         
-        <TrayButton icon="/usr/share/jwm/beaver.png" label="beaver OS">root:1</TrayButton>
+        <TrayButton icon="/usr/share/jwm/beaver.png" label="pymd">root:1</TrayButton>
         <Spacer width="1"/>
         <TrayButton label="">showdesktop</TrayButton>
         <TrayButton icon="rox.png">exec:rox</TrayButton>
@@ -283,8 +283,8 @@
     <Key mask="A" key="w">exec: nitrogen</Key>
     <Key mask="A" key="X">exec: xkill</Key>
       <Key mask="A" key="f">exec: rox</Key>
-      <Key mask="A" key="space">exec: xfe</Key>
-      <Key mask="A" key="b">exec: beaver</Key>
+      <Key mask="A" key="space">exec: gnome-terminal</Key>
+      <Key mask="A" key="g">exec: geany</Key>
        <Key mask="A" key="q">close</Key>
        <Key mask="A" key="p">exec:dmenu_run -i -nb '#555555' -nf '#f5f1fb' -sb '#376078' -sf '#303030' -fn 'consolas:bold:pixelsize=12'</Key>
        <Key mask="A" key="r">exec:rofi -show run</key>
