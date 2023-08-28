@@ -1,22 +1,5 @@
 <?xml version="1.0"?>
 <JWM>
-
-	 <!--Pymds graytasch .jwmrc  -->
-        <!--	 ┏┓╻ ╻┏┳┓   ╺┳╸╻ ╻┏━╸┏┳┓┏━╸ 	-->
-        <!--	  ┃┃╻┃┃┃┃╺━╸ ┃ ┣━┫┣╸ ┃┃┃┣╸  	-->
-        <!--	┗━┛┗┻┛╹ ╹    ╹ ╹ ╹┗━╸╹ ╹┗━╸ 	-->
-        
-
-       
-<!--  ________    ______        ____      __  __        ________     ______     ______ <--  
-<!-- |__    __|  |  __  \      / __ \     \ \/ /       |__    __|   /  __  \   |  __  \  <--
-<!--    |  |     |      /     / /__\ \     \  /           |  |     |  /  \  |  |   ___/  <--
-<!--    |  |     |  |\  \    / ______ \    / /            |  |     |  \__/  |  |  |      <--
-<!--    |__|     |__| \__\  /_/      \_\  /_/             |__|      \______/   |__|      <--
-
- 
-<?xml version="1.0"?>
-<JWM>
 	<RootMenu height="15" onroot="123">
 		<Program icon="terminal.png" label="terminal">gnome-terminal</Program>
 		<Program icon="/usr/share/jwm/beaver.png" label="beaver">beaver</Program>
@@ -84,42 +67,42 @@
 		<Height>26</Height>
 		<Corner>5</Corner>
 		<Foreground>#ffffff</Foreground>
-		<Background>#37424A</Background>
+		<Background>#170554</Background>
 		<Outline>#37424A</Outline>
 		<Opacity>1.0</Opacity>
 		<Active>
 			<Foreground>#ffffff</Foreground>
-			<Background>#37424A</Background>
-			<Outline>#37424A</Outline>
+			<Background>#170554</Background>
+			<Outline>#170554</Outline>
 			<Opacity>1.0</Opacity>
 		</Active>
 	</WindowStyle>
 	<TrayStyle group="true" list="all" decorations="motif">
 		<Font>monospace-10</Font>
-		<Background>#37424A</Background>
+		<Background>#170554</Background>
 		<Foreground>#ffffff</Foreground>
-		<Outline>#37424A</Outline>
+		<Outline>#V</Outline>
 		<Opacity>1.0</Opacity>
 		<Active>
 			<Foreground>#ffffff</Foreground>
-			<Background>#37424A</Background>
+			<Background>#170554</Background>
 		</Active>
 	</TrayStyle>
 	<PagerStyle>
-		<Outline>#D4D4D4</Outline>
+		<Outline>#170554</Outline>
 		<Foreground>#000000</Foreground>
-		<Background>#37424A</Background>
+		<Background>#170554</Background>
 		<Text>#5C616C</Text>
 		<Active>
 			<Foreground>#2E3436</Foreground>
-			<Background>#b7c0d1</Background>
+			<Background>#170554</Background>
 			<Text>#111111</Text>
 		</Active>
 	</PagerStyle>
 	<MenuStyle>
 		<Font>monospace-10</Font>
 		<Foreground>#ffffff</Foreground>
-		<Background>#37424A</Background>
+		<Background>#170554</Background>
 		<Outline>#37424A</Outline>
 		<Active>
 			<Foreground>#ffffff</Foreground>
