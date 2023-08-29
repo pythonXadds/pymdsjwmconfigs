@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <JWM>
 	<RootMenu height="15" onroot="123">
-		<Program icon="terminal.png" label="terminal">gnome-terminal</Program>
+		<Program icon="terminal.png" label="terminal">roxterm</Program>
 		<Program icon="/usr/share/jwm/beaver.png" label="beaver">beaver</Program>
 		<Program icon="/usr/share/jwm/notepad..png" label="Geany">geany</Program>
 		<Program icon="/usr/share/jwm/rox.png" label="rox">rox</Program>
@@ -64,46 +64,46 @@
 	<WindowStyle>
 		<Font>monospace-10:book</Font>
 		<Width>4</Width>
-		<Height>26</Height>
+		<Height>25</Height>
 		<Corner>5</Corner>
 		<Foreground>#ffffff</Foreground>
-		<Background>#170554</Background>
-		<Outline>#37424A</Outline>
+		<Background>#74A604:#010101</Background>
+		<Outline>#3C5505</Outline>
 		<Opacity>1.0</Opacity>
 		<Active>
 			<Foreground>#ffffff</Foreground>
-			<Background>#170554</Background>
+			<Background>#74A604:#010101</Background>
 			<Outline>#170554</Outline>
 			<Opacity>1.0</Opacity>
 		</Active>
 	</WindowStyle>
 	<TrayStyle group="true" list="all" decorations="motif">
 		<Font>monospace-10</Font>
-		<Background>#170554</Background>
+		<Background>#74A604:#010101</Background>
 		<Foreground>#ffffff</Foreground>
 		<Outline>#V</Outline>
 		<Opacity>1.0</Opacity>
 		<Active>
 			<Foreground>#ffffff</Foreground>
-			<Background>#170554</Background>
+			<Background>#74A604:#010101</Background>
 		</Active>
 	</TrayStyle>
 	<PagerStyle>
-		<Outline>#170554</Outline>
-		<Foreground>#000000</Foreground>
-		<Background>#170554</Background>
+		<Outline>#b8ed48</Outline>
+		<Foreground>#517403</Foreground>
+		<Background>#6A99D4:#3f6fa9</Background>
 		<Text>#5C616C</Text>
 		<Active>
 			<Foreground>#2E3436</Foreground>
-			<Background>#170554</Background>
+			<Background>#6A99D4:#3f6fa9</Background>
 			<Text>#111111</Text>
 		</Active>
 	</PagerStyle>
 	<MenuStyle>
 		<Font>monospace-10</Font>
-		<Foreground>#ffffff</Foreground>
-		<Background>#170554</Background>
-		<Outline>#37424A</Outline>
+		<Foreground>#fafdfa</Foreground>
+		<Background>#74A604:#010101</Background>
+		<Outline>#170554</Outline>
 		<Active>
 			<Foreground>#ffffff</Foreground>
 			<Background>#b7c0d1</Background>
@@ -114,7 +114,7 @@
 		<Font>monospace-9</Font>
 		<Foreground>#ffffff</Foreground>
 		<Background>#37424A</Background>
-		<Outline>#37424A</Outline>
+		<Outline>#170554</Outline>
 	</PopupStyle>
 	<TrayButtonStyle>
 		<Active>
@@ -132,4 +132,5 @@
 <startupCommand>xclock</startupCommand>
 
 <Key mask="A" key="p">exec:dmenu_run -i -nb '#555555' -nf '#f5f1fb' -sb '#376078' -sf '#303030'
-<Key mask="A" key="Return">exec:xterm </Key>
+<Key mask="A" key="Return">exec:roxterm</Key>
+<Key mask="A" key="r">exec:roxterm</key>	
