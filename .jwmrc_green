@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<JWM>
+	<RootMenu height="10" onroot="123">
+	 <Program icon="terminal.png" label="terminal">roxterm</Program>
+		<Program icon="/usr/share/jwm/beaver.png" label="beaver">beaver</Program>
+		<Program icon="/usr/share/jwm/notepad..png" label="Geany">geany</Program>
+		<Program icon="/usr/share/jwm/rox.png" label="rox">rox</Program>
+		<Program icon="/usr/share/jwm/markdown.png" label="vim">gvim</Program>
+		<Menu icon="apps.png" label="Applications">
+			<Program icon="calc.png" label="Calculator">xcalc</Program>
+			<Program icon="xterm" label="xterm">lxterminal</Program>
+		</Menu>
+		<Menu icon="bull.png" label="Utilities">
+			<Program icon="font.png" label="Fonts">xfontsel</Program>
+			<Program icon="window.png" label="Window Properties">
+                xprop | xmessage -file -
+            </Program>
+			<Program icon="window.png" label="Window Information">
+                xwininfo | xmessage -file -
+            </Program>
+		</Menu>
+		<Separator />
+		<Program icon="lock.png" label="lock">
+            xlock -mode blank
+        </Program>
+		<Separator />
+		<Restart label="Restart jwm" icon="penguin.png" />
+		<Exit label="Log-out" confirm="true" icon="logout.png" />
+		<Include>exec: xdgmenumaker -n -i -f jwm</Include>
+		<Program icon="/usr/share/jwm/shutdown.png" label="Shutdown">loginctl poweroff</Program>
+		<Program icon="/usr/share/jwm/reboot.png" label="Reboot">loginctl reboot</Program>
+		<Program label="Refresh Menu">jwm -reload</Program>
+	</RootMenu>
+	<Group>
+		<Option>tiled</Option>
+		<Option>aerosnap</Option>
+	</Group>
+	<Group>
+		<Class>Pidgin</Class>
+		<Option>sticky</Option>
+	</Group>
+	<Group>
+		<Name>xterm</Name>
+		<Option>vmax</Option>
+	</Group>
+	<Group>
+		<Name>xclock</Name>
+		<Option>drag</Option>
+		<Option>notitle</Option>
+	</Group>
+	<Tray x="0" y="-1" height="18" valign="bottom" autohide="no" width="0" halign="fixed" layout="horizontal">
+		<TrayButton icon="/usr/share/jwm/beaver.png" label="pymd">root:1</TrayButton>
+		<Spacer width="1" />
+		<TrayButton label="">showdesktop</TrayButton>
+		<TrayButton icon="rox.png">exec:rox</TrayButton>
+		<Spacer width="2" />
+		<Pager labeled="true" />
+		<TaskList maxwidth="200" />
+		<Dock />
+		<Clock format="%H:%M">
+			<Button mask="123">exec:xclock</Button>
+		</Clock>
+	</Tray>
+	<WindowStyle>
+		<Font>monospace-10:book</Font>
+		<Width>4</Width>
+		<Height>18</Height>
+		<Corner>5</Corner>
+		<Foreground>#ffffff</Foreground>
+		<Background>#909580</Background>
+		<Outline>#2F3031</Outline>
+		<Opacity>1.0</Opacity>
+		<Active>
+			<Foreground>#ffffff</Foreground>
+			<Background>#545643</Background>
+			<Outline>#2F3031</Outline>
+			<Opacity>1.0</Opacity>
+		</Active>
+	</WindowStyle>
+	<TrayStyle group="true" list="all" decorations="motif">
+		<Font>monospace-10</Font>
+		<Background>#545643</Background>
+		<Foreground>#ffffff</Foreground>
+		<Outline>#V</Outline>
+		<Opacity>1.0</Opacity>
+		<Active>
+			<Foreground>#ffffff</Foreground>
+			<Background>#545643</Background>
+		</Active>
+	</TrayStyle>
+	<PagerStyle>
+		<Outline>#A4A6A9</Outline>
+		<Foreground>#2F3031</Foreground>
+		<Background>#909580</Background>
+		<Text>#F0F0F1</Text>
+		<Active>
+			<Foreground>#2E3436</Foreground>
+			<Background>#2F3031</Background>
+			<Text>#111111</Text>
+		</Active>
+	</PagerStyle>
+	<MenuStyle>
+		<Font>monospace-10</Font>
+		<Foreground>#fafdfa</Foreground>
+		<Background>#545643</Background>
+		<Outline>#545643</Outline>
+		<Active>
+			<Foreground>#F0F0F1</Foreground>
+			<Background>#2F3031</Background>
+		</Active>
+		<Opacity>1.0</Opacity>
+	</MenuStyle>
+	<PopupStyle>
+		<Font>monospace-9</Font>
+		<Foreground>#F0F0F1</Foreground>
+		<Background>#2F3031</Background>
+		<Outline>#2F3031</Outline>
+	</PopupStyle>
+	<TrayButtonStyle>
+		<Active>
+			<Foreground>#E1E1E2</Foreground>
+		</Active>
+	</TrayButtonStyle>
+	<StartupCommand>variety</StartupCommand>
+	<StartupCommand>plank</StartupCommand>
+    <StartupCommand>picom</StartupCommand>
+	<StartupCommand>thunar --daemon</StartupCommand>
+</JWM>
+<StartupCommand>xbattbar -I gray -O black -i cyan -o black -p 10 -c -t 1 -a bottom</StartupCommand>
+<StartupCommand>nm-applet</StartupCommand>
+<StartupCommand>plank</StartupCommand>
+<StartupCommand>volumeicon</StartupCommand>
+<startupCommand>xclock</startupCommand>
+
+<Key mask="A" key="p">exec:dmenu_run -i -nb '#4C4E50' -nf '#ffffff' -sb '#FFFF01' -sf '#A4A6A9'
+<Key mask="A" key="Return">exec:roxterm</Key>
+<Key mask="A" key="r">exec:roxterm</key>	
