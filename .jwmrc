@@ -17,7 +17,7 @@
 
    <!-- The root menu. -->
     <RootMenu height="28" onroot="123">
-        <Program icon="terminal.png" label="xterm">xterm</Program>
+        <Program icon="terminal.png" label="roxterm">roxterm</Program>
         <Program icon="/usr/share/jwm/beaver.png" label="beaver">beaver</Program>
         <Program icon="/usr/share/jwm/notepad..png" label="notepadqq">notepadqq</Program>
         <Program icon="/usr/share/jwm/rox.png" label="rox">rox</Program>
@@ -84,7 +84,7 @@
         <TrayButton icon="rox.png">exec:rox</TrayButton>
         <TrayButton icon="be.png">exec:beaver</TrayButton>
         <TrayButton icon="markdown.png">exec:retext</TrayButton>
-        <TrayButton icon="monitor.png">exec:xterm</TrayButton>
+        <TrayButton icon="monitor.png">exec:roxterm</TrayButton>
         <TrayButton icon="folder.png">exec:xfe</TrayButton>
 
         <Spacer width="2"/>
@@ -101,7 +101,7 @@
     <WindowStyle>
         <Font>monospace-10:book</Font>
         <Width>4</Width>
-        <Height>25</Height>
+        <Height>24</Height>
         <Corner>3</Corner>
         <Foreground>#ffffff</Foreground>
         <Background>#37424A</Background>
@@ -279,14 +279,14 @@
     <Key mask="A" key="Left">ldesktop</Key>
     <Key mask="A" key="Up">udesktop</Key>
     <Key mask="A" key="Down">ddesktop</Key>
-    <Key mask="A" key="Return">exec:xterm</Key>
+    <Key mask="A" key="Return">exec:roxterm</Key>
     <Key mask="A" key="w">exec: nitrogen</Key>
     <Key mask="A" key="X">exec: xkill</Key>
       <Key mask="A" key="f">exec: rox</Key>
       <Key mask="A" key="space">exec: xfe</Key>
       <Key mask="A" key="b">exec: beaver</Key>
        <Key mask="A" key="q">close</Key>
-       <Key mask="A" key="d">exec:dmenu_run -i -nb '#555555' -nf '#f5f1fb' -sb '#376078' -sf '#303030' -fn 'consolas:bold:pixelsize=12'</Key>
+       <Key mask="A" key="d">exec:dmenu_run -i -nb '#555555' -nf '#f5f1fb' -sb '#376078' -sf '#303030' -fn 'consolas:bold:pixelsize=20'</Key>
        <Key mask="A" key="r">exec:rofi -show run</key>
   <!-- <StartupCommand></StartupCommand-->
     <StartupCommand>plank</StartupCommand>
@@ -295,7 +295,7 @@
       <!-- <StartupCommand>nitrogen<StartupCommand>-->
            <StartupCommand>osmo<StartupCommand>
 
-           <StartupCommand>conky</StartupCommand>
+           <StartupCommand>variety</StartupCommand>
 
 
 <TrayButton icon="rox.png">exec:rox</TrayButton>
